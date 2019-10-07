@@ -10,15 +10,10 @@ Once tested, move the function into your library file.
 
 import math
 
-def calculateDistanceBetweenPoints(x,y, x1,y1):
-
-    distance = math.sqrt((x - x1)**2 + (y - y1)**2)
-    return distance
-
-x = float(input('Enter x: '))
-y = float(input('Enter y: '))
-x1 = float(input('Enter x1: '))
-y1 = float(input('Enter y1: '))
+x = int(input('Enter x: '))
+y = int(input('Enter y: '))
+x1 = int(input('Enter x1: '))
+y1 = int(input('Enter y1: '))
 
 print('The distance between two points is: ', calculateDistanceBetweenPoints(x,y,x1,y1))
 
