@@ -8,7 +8,7 @@ Once tested, move the function into your library file.
 
 '''
 
-import math
+import library
 
 x = int(input('Enter x: '))
 y = int(input('Enter y: '))
