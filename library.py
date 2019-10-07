@@ -1,10 +1,5 @@
 import math
 
-# calculate the distance between any given points
-def calculateDistanceBetweenPoints(x,y, x1,y1):
-
-    distance = math.sqrt((x - x1)**2 + (y - y1)**2)
-    return distance
 
 # calculate the MPG
 def calculateMpg(miles,gallons):
@@ -23,3 +18,8 @@ def convertFahrenheitToCelsius(fah):
     return cel
 
 
+# calculate the distance between any given points
+def calculateDistanceBetweenPoints(x,y, x1,y1):
+
+    distance = math.sqrt((x - x1)**2 + (y - y1)**2)
+    return distance
