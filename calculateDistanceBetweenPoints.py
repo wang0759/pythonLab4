@@ -8,7 +8,7 @@ Once tested, move the function into your library file.
 
 '''
 
-import library
+from wang0759Library import calculateDistanceBetweenPoints
 
 x = int(input('Enter x: '))
 y = int(input('Enter y: '))
